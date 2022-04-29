@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+     <title>mhw3</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href ="mhw3.css">
+    <script src="mhw3.js" defer="true"></script>
+
+</head>
+  
+ <body>
+
+      <nav>
+         
+          <a>HOME</a>
+          <a>REPERTORIO</a> 
+          <a>CONTATTI</a>
+          <a>PREZZI</a>
+        
+      </nav>
+
+      <header>
+
+         <div id="overlay">
+
+         </div>
+
+        <h1>Generi musicali per il tuo evento da sogno
+        </h1>
+      </header>
+
+         <div id="profile"> 
+         <div>
+            <img src="images/Profilo.png">
+            
+        </div>
+      
+        <h3>
+          Martina Attaguile <br>
+          <em>Ultimo aggiornamento: oggi</em>
+        </h3>
+        </div>
+
+        <section>
+
+        <div class="flex-conteiner">
+        <div>
+          <h1>1. JAZZ</h1>
+
+          <p>
+          Nato agli inizi del XX secolo a New Orleans, il jazz è un genere musicale raffinato in grado di saper emozionare chi vi si avvicina anche 
+          semplicemente ascoltando. I musicisti jazz si focalizzano principalmente su ritmo ed improvvisazione. Di fondamentale importanza, infatti, 
+          sono gli accenti, la cadenza e l’arte dell’improvvisazione del musicista. Il segreto per essere un bravo jazzista? Semplice, lasciarsi 
+          trasportare dal cuore! <br>
+          Voto: 10
+          </p>
+      <img src="images/JAZZ.png">
+        </div>
+        </div>
+
+        <div class="flex-conteiner">
+        <div>
+          <h1>2. SWING</h1>
+        <p>
+         Lo swing è l’evoluzione del jazz. Si distingue per un caratteristico movimento della sezione ritmica e per un tipo di esecuzione 
+         delle note con un ritmo "saltellante", da cui deriva la parola inglese “swing”.  E’ un genere musicale romantico e al contempo coinvolgente, 
+         al quale, spesso, vengono associati balli piuttosto movimentati. Tra gli artisti swing più conosciuti non possiamo non ricordare Michael Bublé, 
+         Ella Fitzgerald, Frank Sinatra <br>
+        Voto: 8
+        </p>
+
+      <img src="images/SWING.png">
+
+
+      </div>
+      </div>
+
+        <div class="flex-conteiner">
+          <div>
+       <h1>3. POP</h1>
+     <p>
+       In qualsiasi evento non può mancare una parentesi di Pop Music. Adatta per far cantare i tuoi invitati ed avere una loro maggiore partecipazione. 
+       Da Mina a Mia Martini, da Claudio Baglioni a Tiziano Ferro, o ancora, da Ed Sheeran a Bruno Mars. Qualunque sia la tua scelta, creerai un clima di forte 
+       coesione tra i tuoi invitati. <br>
+      Voto: 8
+     </p>
+
+     <img src="images/POP.png">
+
+        </div>
+        </div>
+
+        <div class="flex-conteiner">
+        <div>
+
+         <h1>4. LATIN</h1> 
+      <p>
+       Che sia Rumba, Salsa o Cha cha cha, poco importa, la straordinaria caratteristica della musica latina è, sicuramente, la frenesia contagiosa che porta con sé. 
+       Nessuno riesce a resistere ai ritmi latini che fanno tanto pensare alle serate estive in riva al mare, liberi dai pensieri e lontani dalla solita routine.
+       È, certamente, il genere più adatto per liberare la mente e godersi la festa. <br>
+       Voto: 9
+      </p>
+
+     <img src="images/LATIN.png">
+          
+        </div>
+        </div>
+
+        <div class="flex-conteiner">
+        <div>
+
+         <h1>5. DANCE</h1>
+      <P>
+       L’inizio del tuo intrattenimento è importante per rompere il ghiaccio, ma come stupire i tuoi ospiti anche alla fine? Semplice, con un bel momento di Dance Music.
+       Anni 80/90/2000, non importa, il repertorio di musica Dance farà scatenare anche i più timidi, dai più grandi ai più piccoli. E allora che aspetti? 
+       Scendi in pista e goditi il momento! <br>
+       Voto: 8.5
+      </P>
+
+    <img src="images/DANCE.png">
+        </div>
+        </div>
+        </section>
+
+    
+    <div class="spotify"></div>
+    <div class="api_spotify">
+    <form class="form">
+
+    <img src="images/logo.png" class="logo">
+    <p>Ascolta l'album del tuo idolo!</p>
+    <div id="ricerca">
+     <input type='text' id="album"  >
+      <input type="submit" id="submit"  value="Cerca">
+    </div>
+    <div id="album_view"></div>
+    </form>
+    </div>
+
+     <form id="testo"> 
+        <h1>Cerca il testo di una canzone</h1>
+        <input placeholder='Inserisci il nome di un artista' type='search' id='nome_artista'>
+        <input placeholder='Inserisci il nome del brano' type='search' id='nome_brano'>
+        <br>
+        <input type="button" id="submit" value="Cerca">
+        <p id="text"></p>
+     </form>
+ 
+   <footer>
+        <address>Cittadella Universitaria - Catania</address>
+        <p>Powered by Martina Attaguile 1000002200</p>
+   </footer>
+
+ </body>
+</html>
